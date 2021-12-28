@@ -30,13 +30,19 @@ public class StarPattern {
 			}
 			System.out.println();
 		}
-		*/
+		3)Deacreasing triangle pattern
+			* * * * * 
+			* * * * 
+			* * * 
+			* * 
+			*
 		for(int i=1;i<=n;i++) {
 			for(int j=i;j<=n;j++) {
 				System.out.print("* ");
 			}
 			System.out.println();
 		}
+		*/
 	}
 
 }
