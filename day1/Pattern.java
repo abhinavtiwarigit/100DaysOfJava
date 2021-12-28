@@ -55,7 +55,20 @@ public class Pattern {
 			 
 			 System.out.println();
 		 } */
-		 
+		 //7) Reverse Hill Pattern
+		/* for(int i=1;i<=n;i++) {
+			 for(int j=1;j<=i;j++) { 
+				 System.out.print("  "); // increasing no. of spaces
+			 }
+			 for(int j=i;j<n;j++) {		// <i because we need 1 less column 
+				 System.out.print("* "); // Decreasing no. of *
+			 }
+			 for(int j=i;j<=n;j++) {
+				 System.out.print("* "); // Decreasing no. of *
+			 }
+			 
+			 System.out.println();
+		 } */
 	}
 
 }
